@@ -1,0 +1,187 @@
+{
+	"category" : {
+		"pos" : 0,
+		"length" : 1,
+		"H" : "historical",
+		"S" : "seasonal",
+		"P" : "projection"
+	},
+	"generation" : {
+		"pos" : 1,
+		"length" : 4,
+		"ERA5" : "ERA5",
+		"SY05" : "System 5",
+		"CMI5" : "CMIP5",
+		"EUCX" : "Euro Cordex"
+	},
+	"originator" : {
+		"pos" : 2,
+		"length" : 4,
+		"ECMW" : "ECMWF",
+		"MTFR" : "Meteo-France",
+		"METO" : "Met Office",
+		"DWD-" : "DWD",
+		"CMCC" : "CMCC",
+		"GFDL" : "GFDL",
+		"GFC2" : "GFC2"			
+	},
+	"model" : {
+		"pos" : 3,
+		"length" : 4,
+		"T639" : "TL 639",
+		"CM20" : "CM2.0"
+	},
+	"variable" : {
+		"pos" : 4,
+		"length" : 3,
+		"TA-" : "Air Temperature",
+		"TP-" : "Total Precipitation",
+		"GHI" : "Global Horizontal Irradiance", 
+		"MSL" : "Mean Sea Level Pressure",
+		"WS-" : "Wind Speed",
+		"E--" : "Evaporation",
+		"SD-" : "Snow Depth",
+		"DEM" : "Electricity Demand",
+		"HRE" : "Hydropower (Reservoir)",
+		"HRO" : "Hydropower (Run Of River)",
+	    "WON" : "Wind Power Onshore",
+	    "WOF" : "Wind Power Offshore",
+		"WIN" : "Wind",
+		"SPV" : "Solar PV Power"
+	},
+	"level" : {
+		"pos" : 5,
+		"length" : 5,
+		"NA---" : "N/A", 
+		"0000m" : "0m",
+		"0002m" : "2m",
+		"0010m" : "10m",
+		"0100m" : "100m",
+		"1e3hP" : "1000 hPa",
+		"850hP" : "850 hPa"
+	},
+	"region" : {
+		"pos" : 6,
+		"length" : 4,
+		"Euro" : "Europe"
+	},
+	"spacial_resolution" : {
+		"pos" : 7,
+		"length" : 4,
+		"025d" : "0.25 deg",
+		"nut0" : "NUTS0",
+		"nut2" : "NUTS2"
+	},
+	"start_date" : {
+		"pos" : 8,
+		"length" : 13,
+		"SYYYYMMDDhhmm" : "SYYYYMMDDhhmm"
+	},
+	"end_date" : {
+		"pos" : 9,
+		"length" : 13,
+		"EYYYYMMDDhhmm" : "EYYYYMMDDhhmm"
+	},
+	"type" : {
+		"pos" : 10,
+		"length" : 3,
+		"ACC" : "Accumulated",
+		"INS" : "Instantaneous",
+		"PWR" : "Power",
+		"NRG" : "Energy",
+		"CFR" : "Capacity factor"
+	},
+	"view" : {
+		"pos" : 11,
+		"length" : 3,
+		"MAP" : "Map",
+		"TIM" : "Time series"
+	},
+	"temporal_resolution" : {
+		"pos" : 12,
+		"length" : 3,
+		"01h" : "1 hour", 
+		"03h" : "3 hours",
+		"06h" : "6 hours",
+		"01d" : "1 day", 
+		"01m" : "1 month", 
+		"03m" : "3 month",
+		"12m" : "1 year",
+		"30y" : "30 years"
+	},
+	"lead_time" : {
+		"pos" : 13,
+		"length" : 3,
+		"NA-" : "N/A",
+		"03m" : "3 Months"
+	},
+	"bias_adjustment" : {
+		"pos" : 14,
+		"length" : 3,
+		"noc" : "No correction",
+		"mbc" : "Mean bias cor",
+		"nbc" : "Normal distr adjustment",
+		"vbc" : "Variance corrected",
+		"msd" : "Mean and std corrected",
+		"std" : "Standardized (zero mean and stdev)",
+		"wbc" : "Based on Weibull distr.",
+		"gbc" : "Based on gamma distr.",
+		"qbc" : "Based on quantile distr.n",
+		"cdf" : "Cumulative distr. fn"
+	},
+	"statistics" : {
+		"pos" : 15,
+		"length" : 3,
+		"org" : "Original",
+		"avg" : "Mean", 
+		"med" : "Median", 
+		"min" : "Minimum", 
+		"max" : "Maximum",
+		"and" : "Anomaly difference", 
+		"anr" : "Anomaly ratio",
+		"33u" : "Upper tercile",
+		"33m" : "Lower tercile",
+		"20u" : "Upper quintile",
+		"20l" : "Lower quintile",
+		"qxx" : "Percentile",
+		"bss" : "Brier skill score",
+		"rss" : "Roc skill score"
+	},
+	"ensemble_number" : {
+		"pos" : 16,
+		"length" : 2,
+		"NA" : "N/A", 
+		"01" : "1"
+	},
+	"emission_scenario" : {
+		"pos" : 17,
+		"length" : 5,
+		"NA---" : "N/A",
+		"RCP45" : "RCP4.5", 
+		"RCP85" : "RCP8.5"
+	},
+	"energy_scenario" : {
+		"pos" : 18,
+		"length" : 5,
+		"NA---" : "N/A",
+		"EHBaM" : "E-H 2050 Big and Market",
+		"SHLSR" : "E-H 2050 Large Scale Res",
+		"EHFOF" : "E-H 2050 Fossil Fuels",
+		"EHRES" : "E-H 2050 100% RES",
+		"EHSaL" : "E-H 2050 Small and Local",
+		"REF16" : "EU energy ref. scen. 2016"
+	},
+	"transfer_function" : {
+		"pos" : 19,
+		"length" : 5,
+		"NA---" : "N/A",
+		"StGAM" : "Statistical model/GAM",
+		"StMLR" : "Statistical model/MLR: StMLR",
+		"StSVR" : "Statistical model/SVR: StSVR",
+		"StRnF" : "Statistical model/Random Forests",
+		"GamWT" : "GAM With Trend",
+		"GamAN" : "GAM Anomaly",
+		"GamNT" : "GAM No Trend",
+		"PhM01" : "Physical Model/method1"
+	}
+}	
